@@ -36,22 +36,24 @@ class Telephone {
 
 class Observer {
     onDial(number) {
-        // your logic to handle dial event
+        console.log(`The number ${number} is being dialed.`)
     }
 }
 
-class PrintNumberObserver extends Observer {
-    onDial(number) {
-        console.log(number);
-    }
-}
+// class PrintNumberObserver extends Observer {
+//     onDial(number) {
+//         console.log(number);
+//     }
+// }
 
-class PrintDiallingObserver extends Observer {
-    onDial(number) {
-        console.log(`Now Dialling ${number}`);
-    }
-}
+// class PrintDiallingObserver extends Observer {
+//     onDial(number) {
+//         console.log(`Now Dialling ${number}`);
+//     }
+// }
 
+
+// ===============   TESTS   ===============//
 
 const telephone = new Telephone();
 
