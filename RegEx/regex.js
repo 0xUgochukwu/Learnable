@@ -2,6 +2,10 @@
 // // Starts with a digit
 // console.log(/\d./.test("1gasdh"))
 
+// + : one or more 
+// ? : zero or one
+// * : zero or more
+
 // // has three to seven digits
 // console.log(/\d{3,7}/.test("1fda uhds sn"))
 
